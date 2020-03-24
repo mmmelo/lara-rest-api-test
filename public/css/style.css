@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+html, body {
+     background-color: #fff;
+     color: #636b6f;
+     font-family: 'Nunito', sans-serif;
+     font-weight: 200;
+     height: 100vh;
+     margin: 0;
+ }
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.panel-heading {
+    background-color: #0157ad;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.processing{
+    margin-right: 7px;
+}
+
+.panel-default>.panel-heading{
+    background-image: linear-gradient(to bottom,#0157ad 0,#015c 100%);
+    color: white;
+}
+
+.score_board{
+    font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.score_board_background{
+    background-color: #586753;
+    color: white;
+}
+
+.score_container{
+    font-size: 60px;
+    height: 75px;
+}
+
+#add_tags{
+    cursor: pointer;
+}
+
+.new_tag_created{
+    font-family: 'Kaushan Script', cursive;
+    color:#ffef00;
+    font-size: 12px;
+}
+
+.easy-autocomplete.style{
+    width: 80%;
+}
+
+.footer-class{
+    height: 200px;
+}
+
+.error{
+    border-width: 1px;
+    border-style: solid;
+    padding: 9px;
+    border-color: red;
+    margin-bottom: 20px;
+}
